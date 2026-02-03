@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t nyapu1010/ecom-site:1.1 .
-
+        run: docker build -t nyapu1010/ecom-site:1.1 -f Dockerfile .
+        
       - name: Push Docker image
         run: docker push nyapu1010/ecom-site:1.1
