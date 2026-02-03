@@ -5,7 +5,7 @@ function App() {
   const [cartCount, setCartCount] = useState(3);
   
   const products = [
-    { id: 1, name: "Premium Headphones", price: "$199", image: "🎧", rating: 4.5 },
+    { id: 1, name: "Premiums Headphoness", price: "$199", image: "🎧", rating: 4.5 },
     { id: 2, name: "Smart Watch", price: "$299", image: "⌚", rating: 4.8 },
     { id: 3, name: "Wireless Speaker", price: "$129", image: "🔊", rating: 4.3 },
     { id: 4, name: "Laptop Stand", price: "$49", image: "💻", rating: 4.7 },
