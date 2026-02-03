@@ -1,4 +1,4 @@
-name: Build & Push Docker Image
+name: Build and Push Docker Image
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout source code
         uses: actions/checkout@v4
 
       - name: Login to Docker Hub
@@ -20,11 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: |
-          docker build -t nyapu1010/ecom-site:1.1 .
-          docker tag nyapu1010/ecom-site:1.1 nyapu1010/ecom-site:latest
+        run: docker build -t nyapu1010/ecom-site:1.1 .
 
       - name: Push Docker image
-        run: |
-          docker push nyapu1010/ecom-site:1.1
-          docker push nyapu1010/ecom-site:latest
+        run: docker push nyapu1010/ecom-site:1.1
