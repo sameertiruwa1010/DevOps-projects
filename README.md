@@ -1,183 +1,84 @@
-# 🃏 GitCard
+<div align="center">
 
-> **GitHub Profile README Generator — terminal ma answers deu, stunning README paaunu**
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=sameer+tiruwa&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=devops&descAlignY=55&descSize=18)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Shell: Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Platform: Linux](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-blue?style=for-the-badge)](https://www.linux.org/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/sameertiruwa1010/GitCard?style=social)](https://github.com/sameertiruwa1010/GitCard/stargazers)
+</div>
 
-A terminal-based interactive generator that asks you simple questions and produces a **professional, beautiful GitHub profile README** — with animated headers, tech badges, GitHub stats, streak cards, and social links. Zero design skills needed.
+<div align="center">
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6AD3F5&center=true&vCenter=true&random=false&width=600&lines=my name is sameer tiruwa;devops;📍+nepal" alt="Typing SVG" />
 
-## 📸 Preview
+</div>
 
-```
-$ bash gitcard.sh
+<br/>
 
-   ██████╗ ██╗████████╗ ██████╗ █████╗ ██████╗ ██████╗
-  ██╔════╝ ██║╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔══██╗
-  ██║  ███╗██║   ██║   ██║     ███████║██████╔╝██║  ██║
-  ...
+<div align="center">
 
-  ✨ GitHub Profile README Generator
-  Answer a few questions → get a stunning README.md
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sameertiruwa) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sameertiruwa) [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/nyapu) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sameertiruwa1010@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](sameertiruwa.online) 
 
-  ▶  Basic Information
-
-  → Your full name:
-  → Your GitHub username:
-  → Your job title / role:
-  ...
-
-  ✅ README.md generated successfully!
-```
+</div>
 
 ---
 
-## 🎨 3 Template Styles
+## ✨ About Me
 
-| Style | Best For |
-|-------|----------|
-| **1. Minimal** | Clean, simple, text-focused professionals |
-| **2. Developer** | Stats-heavy, badges, tech-forward devs |
-| **3. Creative** | Animated headers, visual, eye-catching profiles |
+| | |
+|---|---|
+| 💼 | **devops** |
+| 📍 | **nepal** |
+| 🔭 | Currently working on **devops** |
 
----
+| 📫 | **sameertiruwa1010@gmail.com** |
+| 🌐 | [**Visit Portfolio**](sameertiruwa.online) |
 
-## ✨ What Gets Generated
-
-- 🎯 **Animated typing header** (Fira Code typewriter effect)
-- 🏷️ **Auto tech badges** — just type "React, Docker, Python" and badges appear
-- 📊 **GitHub Stats card** with your theme of choice
-- 🔥 **GitHub Streak stats**
-- 🌐 **Social links** (LinkedIn, Twitter, Dev.to, YouTube, Email)
-- 🌊 **Animated wave header/footer** (Creative style)
-- 👁️ **Profile view counter**
-- 💭 **Personal quote/motto**
 
 ---
 
-## 🛠️ Installation & Usage
+## 🛠️ Tech Arsenal
 
-### Run directly (no install needed)
+**⌨️ Languages**
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/sameertiruwa1010/GitCard/main/gitcard.sh | bash
-```
+![js python bash](https://img.shields.io/badge/js python bash-555555?style=for-the-badge) 
 
-### Or download and run
+**🎨 Frontend**
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/sameertiruwa1010/GitCard/main/gitcard.sh -o gitcard.sh
-chmod +x gitcard.sh
-bash gitcard.sh
-```
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
 
----
+**⚙️ Backend**
 
-## 🚀 After Running
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white) 
 
-The script saves `README.md` in your current directory.
+**🗄️ Databases**
 
-```bash
-# 1. Create your GitHub profile repo (username/username)
-#    Go to: https://github.com/new → repo name = your username
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) 
 
-# 2. Clone it
-git clone https://github.com/YOUR_USERNAME/YOUR_USERNAME.git
-cd YOUR_USERNAME
+**☁️ DevOps & Cloud**
 
-# 3. Copy the generated file
-cp ~/README.md .
+![devoos linux](https://img.shields.io/badge/devoos linux-555555?style=for-the-badge) 
 
-# 4. Push it live
-git add README.md
-git commit -m "✨ Add profile README via GitCard"
-git push origin main
-```
+**🔧 Tools**
 
-Your profile at `github.com/YOUR_USERNAME` will show it immediately. 🎉
+![git postman](https://img.shields.io/badge/git postman-555555?style=for-the-badge) 
 
 ---
 
-## 🎯 Supported Tech Badges
+## 📈 GitHub Activity
 
-GitCard auto-recognizes these — just type the name:
+<div align="center">
 
-**Languages:** JavaScript, TypeScript, Python, Bash, Go, Rust, Java, PHP, C++
+<img src="https://github-readme-stats.vercel.app/api?username=sameertiruwa1010&show_icons=true&theme=gruvbox&hide_border=true&count_private=true&bg_color=0d1117" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sameertiruwa1010&layout=compact&theme=gruvbox&hide_border=true&bg_color=0d1117" height="165" />
 
-**Frontend:** React, Vue, Next.js, Svelte, Tailwind, HTML5, CSS3
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sameertiruwa1010&theme=gruvbox&hide_border=true&background=0d1117" width="700" />
 
-**Backend:** Node.js, Express, Django, Laravel, FastAPI
-
-**Databases:** MySQL, PostgreSQL, MongoDB, Redis, SQLite
-
-**DevOps:** Docker, Kubernetes, AWS, GCP, Azure, Nginx, Linux
-
-**Tools:** Git, GitHub, VS Code, Figma, Postman
-
-> Don't see your tech? Type it anyway — GitCard will create a generic badge for it.
+</div>
 
 ---
 
-## 🎨 Stats Themes
+<div align="center">
 
-When asked for a theme, choose from:
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
-`default` `dark` `radical` `merko` `gruvbox` `tokyonight` `dracula` `cobalt` `synthwave` `highcontrast`
+<img src="https://komarev.com/ghpvc/?username=sameertiruwa1010&label=Profile+Views&color=6AD3F5&style=flat-square" />
 
----
-
-## 📁 Project Structure
-
-```
-GitCard/
-├── gitcard.sh     # Main generator script
-├── README.md      # This file
-└── LICENSE
-```
-
----
-
-## 🤝 Contributing
-
-```bash
-git clone https://github.com/sameertiruwa1010/GitCard.git
-cd GitCard
-git checkout -b feature/add-new-badge
-
-# Add your changes
-git commit -m "feat: add Kotlin badge support"
-git push origin feature/add-new-badge
-# Open a Pull Request
-```
-
-**Ideas welcome:**
-- More tech badge support
-- New template styles
-- Export to clipboard directly
-- Interactive preview mode
-
----
-
-## 📜 License
-
-[MIT](./LICENSE) — free to use, fork, and modify.
-
----
-
-## 👨‍💻 Author
-
-**Sameer Tiruwa**
-- GitHub: [@sameertiruwa1010](https://github.com/sameertiruwa1010)
-
----
-
-> *"Afno GitHub profile ramro banau — GitCard le easy banauxa."* 🇳🇵
-
----
-
-⭐ **If GitCard helped you, star it!** It helps other Nepali developers find it too.
+</div>
